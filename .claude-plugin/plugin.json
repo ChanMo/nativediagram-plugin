@@ -1,0 +1,12 @@
+{
+  "name": "nativediagram",
+  "version": "0.2.0",
+  "description": "Create native, editable SmartArt diagrams for Word and PowerPoint.",
+  "author": {
+    "name": "NativeDiagram",
+    "url": "https://nativediagram.com"
+  },
+  "homepage": "https://nativediagram.com/docs/connect/",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

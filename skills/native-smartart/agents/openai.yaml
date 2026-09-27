@@ -1,0 +1,11 @@
+interface:
+  display_name: "Native SmartArt"
+  short_description: "Create editable SmartArt for Word and PowerPoint"
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "nativediagram"
+      description: "NativeDiagram SmartArt generation"
+      transport: "streamable_http"
+      url: "https://nativediagram.com/mcp"

@@ -1,0 +1,32 @@
+{
+  "name": "nativediagram",
+  "version": "0.2.0",
+  "description": "Create native, editable SmartArt diagrams for Word and PowerPoint.",
+  "author": {
+    "name": "NativeDiagram",
+    "url": "https://nativediagram.com"
+  },
+  "homepage": "https://nativediagram.com/docs/connect/",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "NativeDiagram",
+    "shortDescription": "Editable SmartArt for Word and PowerPoint",
+    "longDescription": "Create native Microsoft Office SmartArt and compose it into reports or slide decks using your assistant’s document tools and the bundled local insertion script. Supports explicit placeholders and retains the target theme. Requires a NativeDiagram account; each successful diagram generation uses one credit.",
+    "developerName": "NativeDiagram",
+    "category": "Productivity",
+    "capabilities": [
+      "Write"
+    ],
+    "websiteURL": "https://nativediagram.com",
+    "privacyPolicyURL": "https://nativediagram.com/privacy/",
+    "termsOfServiceURL": "https://nativediagram.com/terms/",
+    "defaultPrompt": [
+      "Create a two-page Word project report with objectives, a native SmartArt Plan / Build / Test process, responsibilities and risks. Deliver one complete DOCX.",
+      "Create a two-slide project briefing with objectives and a native SmartArt Plan / Build / Test process. Deliver one complete PPTX.",
+      "Make an editable SmartArt process: Plan, Build, Test."
+    ],
+    "brandColor": "#1E4E8C",
+    "logo": "./assets/logo.png"
+  }
+}

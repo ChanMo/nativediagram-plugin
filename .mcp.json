@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "nativediagram": {
+      "type": "http",
+      "url": "https://nativediagram.com/mcp"
+    }
+  }
+}
