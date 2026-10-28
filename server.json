@@ -3,7 +3,7 @@
   "name": "io.github.ChanMo/nativediagram",
   "title": "NativeDiagram",
   "description": "Create native, editable SmartArt diagrams for Microsoft Word and PowerPoint.",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "icons": [
     {
       "src": "https://nativediagram.com/static/brand/icon-512.png",

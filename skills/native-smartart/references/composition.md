@@ -32,9 +32,17 @@ never overwrites an existing output. It is not a general document merger.
 1. Write the complete report or deck using the available host workflow. Reserve
    the intended space and add a unique marker such as `[[ND_PROCESS]]`.
 2. Query and choose a NativeDiagram template that fits both the content and the
-   reserved aspect ratio. Generate once; download the same-format diagram file.
+   reserved aspect ratio. Send full nodes and `placement` to `list_templates`: Word
+   uses the intended width (optional height limit), PPTX uses the marker rectangle
+   width and height. Compare estimated insertion font size and fit; unknown sizes
+   still need visual inspection. Use the same dimensions when inserting. Generate
+   with a retained unique request UUID; download the same-format diagram file.
+   After a timeout, recover with that ID before retrying; reuse exact keyed input.
 3. Run the bundled insertion script using paths actually present in the workspace.
 4. Render the final inserted file, inspect every page/slide and fix layout issues.
+   Check the diagram at its actual insertion size: readable text, no clipping or
+   occlusion, intact labels/relations, sufficient contrast and consistent target-theme
+   colors. The MCP's cropped standalone DOCX preview does not verify this stage or PPTX.
    If the host draft needs changes, update that draft and reinsert the downloaded
    diagram. Layout-only iterations must not create new charged generations.
 5. Check the package still contains diagram data/layout/style/color parts with

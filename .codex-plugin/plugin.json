@@ -1,6 +1,6 @@
 {
   "name": "nativediagram",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Create native, editable SmartArt diagrams for Word and PowerPoint.",
   "author": {
     "name": "NativeDiagram",
